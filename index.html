@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.js" integrity="sha512-kWH92pHUC/rcjpSMu19lT+H6TlZwZCAftg9AuSw+AVYSdEKSlXXB8o6g12mg5f+Pj5xO40A7ju2ot/VdodCthw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active" onclick="scrollToSection('home')">Home</a>
+            <a href="#about-text" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skill</a>
+            <a href="#work" style="--i:4">Work</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="my-image">
+            <img src="Pic.jpeg" id="my-image">
+        </div>
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Srikanth Gudimellanka</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p id="about">
+                I am seeking opportunities as a Web Developer or Software Development Engineer. 
+            </p>
+            <div class="home-sci">
+                <a href="https://github.com/Srikanth-Gudimellanka" style="--i:7" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
+                <a href="https://www.linkedin.com/in/srikanth-gudimellanka-2620a4202/" style="--i:8" target="_blank"><box-icon name='linkedin-square' type='logo' ></box-icon></a>
+                <a href="https://www.facebook.com/profile.php?id=100029236234480" style="--i:9" target="_blank"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+                <a href="https://www.instagram.com/srikanth_2704/" style="--i:10" target="_blank"><box-icon name='instagram-alt' type='logo'></box-icon></a>
+            </div>
+        </div>
+    <span class="home-imghover"></span>    
+    </section>
+    <section class="about" id="about">
+        <div class="about-img" id="about-img">
+            <img src="Profile.jpeg" class="about-profile">
+        </div>
+        <div class="about-text" id="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>I am a passionate B.Tech final year student specializing in CSE. My expertise lies in the MERN stack, and I am seeking opportunities as a Web Developer or Software Development Engineer. With a focus on delivering high-quality code and a keen eye for detail, I excel at building dynamic web applications and ensuring an intuitive user experience. Alongside strong technical skills, I possess effective communication, problem-solving abilities, and a proactive mindset. I am eager to contribute my skills and drive to meaningful projects and be a valuable asset to any team. Let's connect and explore how I can make a difference in your organization. Thank you for considering my profile!</p>
+
+            <a href="https://drive.google.com/file/d/1-0W9nqv8_4eLhM7ucN6hQ5Kg2gOOYJgN/view?usp=sharing" class="btn-box" target="_blank">My Resume</a>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h2 id="skill">My <span class="skill-head">Skills</span></h2>
+        <div class="skills-list">
+          <div class="skill" onclick="window.open('https://www.hackerrank.com/certificates/2ca4ff856944','_blank')">
+              <h3>C Programming</h3>
+              <p>C</p>
+          </div>
+          <div class="skill" onclick="window.open('https://www.hackerrank.com/certificates/b6ef4337db6e','_blank')">
+              <h3>C++ Programming</h3>
+              <p>C++</p>
+          </div>
+          <div class="skill" onclick="window.open('https://drive.google.com/file/d/1lpGom2SdnaUjlov9wsonzL6jpRp08MD9/view?usp=sharing','_blank')" >
+            <h3>Front-end Development</h3>
+            <p>HTML, CSS, JavaScript, React</p>
+          </div>
+          <div class="skill" onclick="window.open('https://www.hackerrank.com/certificates/7507ee4dca61','_blank')">
+            <h3>DBMS</h3>
+            <p>SQL</p>
+          </div>
+        <div class="skill">
+            <h3>Python Programming</h3>
+            <p>Python</p>
+        </div>
+          <!-- Add more skill blocks as needed -->
+        </div>
+    </section>
+    <section class="work" id="work">
+      <h2 id="work-experience">Work <span class="work-head">Experience</span></h2>
+      <div class="work-list">
+          <div class="work-item">
+            <img src="Smart-Internz.png" alt="typing" onclick="window.open('https://smartinternz.com/internships/salesforce_certificates/f8a85df7f5f429ca5f2ff9a695835da3','_blank')">
+          </div>
+          <div class="work-item">
+              <h3>Salesforce Developer Internship</h3>
+              <p>June 2022 - August 2022</p>
+              <p>I gained experience in developing custom code using Salesforce proprietary programming language, Apex,
+                as well as using Visualforce and Lightning Components to build user interfaces. I also worked with other
+                technologies that integrate with Salesforce, such as APIs and databases. Overall, completing a virtual
+                internship in Salesforce as a developer provided me with valuable skills and experience that can be applied
+                to a variety of careers in the tech industry.</p>
+          </div>
+      </div>
+    </section>
+    <section class="work" id="contact">
+      <h2 id="work-experience">Contact <span class="work-head">Me</span></h2>
+      <div class="work-list">
+        <a href="mailto:srikanthumayknow@gmail.com" class="btn-box" target="_blank">Email
+      </a>
+      </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
