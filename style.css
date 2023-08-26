@@ -363,6 +363,7 @@ section{
 .work-item {
     padding: 20px;
     color: #fff;
+    margin-top: 20%;
     text-align: center;
     transition: background-color 0.3s;
 }
